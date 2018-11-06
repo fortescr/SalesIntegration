@@ -1,6 +1,5 @@
 package br.com.salesIntegration.entity;
 
-import java.io.Serializable;
 import java.util.Date;
 
 import javax.persistence.Column;
@@ -43,9 +42,6 @@ public class SalesLog extends BaseEntity{
 	
 	@Column(name = "ID_SF")
 	private String idSf;
-	
-	@Column(name = "ID_GCE")
-	private String idGce;
 	
 	@Column(name = "ERRORCODE")
 	private String errorCode;
@@ -107,14 +103,6 @@ public class SalesLog extends BaseEntity{
 
 	public void setIdSf(String idSf) {
 		this.idSf = idSf;
-	}
-
-	public String getIdGce() {
-		return idGce;
-	}
-
-	public void setIdGce(String idGce) {
-		this.idGce = idGce;
 	}
 
 	public String getErrorCode() {

@@ -5,7 +5,7 @@
     <persistence-unit name="salesIntegrationPU" transaction-type="JTA">
         
         <provider>org.hibernate.ejb.HibernatePersistence</provider>
-		<jta-data-source>java:/gce</jta-data-source>
+		<jta-data-source>java:/salesIntegration</jta-data-source>
 	
         <shared-cache-mode>NONE</shared-cache-mode>
         
