@@ -1,7 +1,7 @@
 # SalesIntegration
 ### Integração Rest com Salesforce
 
-Autenticação Feito através de parâmetros gravados no banco de dados
+A autenticação no Salesforce é realizada através de parâmetros gravados no banco de dados.
 
 ### Requisições para entidades
 
